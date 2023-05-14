@@ -28,7 +28,7 @@ struct RedBallView: View {
 	
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RedBallView_Previews: PreviewProvider {
 	static var previews: some View {
 		RedBallView()
 	}
