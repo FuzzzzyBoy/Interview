@@ -2,8 +2,8 @@ import SwiftUI
 
 struct ListView: View {
 	
-	var numbers = [1, 2, 3]
-	var letters = ["A", "B", "C"]
+	@State var numbers = [1, 2, 3]
+	@State var letters = ["A", "B", "C"]
 
 	var body: some View {
 		VStack {

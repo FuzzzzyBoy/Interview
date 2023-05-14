@@ -2,7 +2,7 @@ import SwiftUI
 
 struct RedBallView: View {
 	
-	@State var toggle = true
+	var toggle = true
 	
 	var body: some View {
 		HStack {
